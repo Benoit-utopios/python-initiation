@@ -10,6 +10,8 @@ greetings_var = "Hello world !"
 # print("\n{1}")
 # print(f"{float(saisie_utilisateur):^7.2f}")
 
-var1 = "B" > "a"
-print(var1)
+for element in range(0, 8):
+    print(element)
 
+str = "stoP"
+print(str.capitalize())
