@@ -15,3 +15,11 @@ for element in range(0, 8):
 
 str = "stoP"
 print(str.capitalize())
+
+def nom_complet(age,
+                prenom="John", 
+                nom="Doe",
+                ) : 
+    return prenom + " " + nom
+
+nom_complet(nom="Toto")
