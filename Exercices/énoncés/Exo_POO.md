@@ -15,3 +15,22 @@ Créez une classe `CompteBancaire` permettant de :
 - Déposer de l'argent
 - Retirer de l'argent (vérifier qu'il y a assez de fonds)
 - Afficher le solde
+
+---
+
+## Projet - Analyseur de pages web
+
+### Énoncé du projet
+
+Créez un système d'analyse de pages web qui permet de :
+
+1. Stocker les informations d'une page (URL, title, meta description, H1, nombre de mots)
+2. Construisez plusieurs méthodes:
+    - verifier_title(): Vérifie si le title respecte les bonnes pratiques
+            (entre 30 et 60 caractères recommandé)
+    - verifier_meta_description(): Vérifie si la meta description respecte les bonnes pratiques
+            (entre 120 et 160 caractères recommandé)
+    - verifier_contenu(): Vérifie si la page a suffisamment de contenu
+            (minimum 300 mots recommandé)
+    - generer_rapport(): Génère un rapport complet des fonctions précédentes
+3. (Optionnel) Essayez de comparer plusieurs pages entre elles via une autre classe utilitaire
